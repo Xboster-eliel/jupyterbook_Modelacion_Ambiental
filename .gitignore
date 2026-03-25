@@ -1,0 +1,13 @@
+.venv/
+**/.venv/
+_build/
+**/_build/
+logs/
+*.log
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/

@@ -1,0 +1,93 @@
+{
+  "caso_principal": {
+    "regimen": "subamortiguado",
+    "omega_0": 1.0,
+    "alpha": 0.2,
+    "amplitud_inicial": 1.0,
+    "desplazamiento_final_exacto": -0.002063415450470151,
+    "desplazamiento_final_esquema": -0.0028669304864740756,
+    "desplazamiento_final_euler": -0.0009316755490848578,
+    "rmse_esquema": 0.0031135164476879065,
+    "rmse_euler": 0.01772062380685298
+  },
+  "regimenes": {
+    "subamortiguado": {
+      "regimen": "subamortiguado",
+      "omega_0": 1.0,
+      "alpha": 0.2,
+      "amplitud_inicial": 1.0,
+      "desplazamiento_final_exacto": -0.002063415450470151,
+      "desplazamiento_final_esquema": -0.0028669304864740756,
+      "desplazamiento_final_euler": -0.0009316755490848578,
+      "rmse_esquema": 0.0031135164476879065,
+      "rmse_euler": 0.01772062380685298
+    },
+    "critico": {
+      "regimen": "critico",
+      "omega_0": 1.0,
+      "alpha": 1.0,
+      "amplitud_inicial": 1.0,
+      "desplazamiento_final_exacto": 9.437836360697745e-10,
+      "desplazamiento_final_esquema": -4.790680762819385e-10,
+      "desplazamiento_final_euler": 5.993950770966954e-10,
+      "rmse_esquema": 0.0013271122443129044,
+      "rmse_euler": 0.002067566178756906
+    },
+    "sobreamortiguado": {
+      "regimen": "sobreamortiguado",
+      "omega_0": 1.0,
+      "alpha": 1.5,
+      "amplitud_inicial": 1.0,
+      "desplazamiento_final_exacto": 0.00012224545892580935,
+      "desplazamiento_final_esquema": 0.0001125654752309796,
+      "desplazamiento_final_euler": 0.00011389515485923338,
+      "rmse_esquema": 0.001043295685379207,
+      "rmse_euler": 0.0014276700881947527
+    }
+  },
+  "estudio_dt": [
+    {
+      "dt": 0.4,
+      "rmse_esquema": 0.0222689185053369,
+      "rmse_euler": 0.5926988068168687,
+      "max_error_esquema": 0.04832701109863033,
+      "max_error_euler": 1.0095982709698512
+    },
+    {
+      "dt": 0.2,
+      "rmse_esquema": 0.013497811350138379,
+      "rmse_euler": 0.13075464286823385,
+      "max_error_esquema": 0.03001342432983889,
+      "max_error_euler": 0.25533655268378663
+    },
+    {
+      "dt": 0.1,
+      "rmse_esquema": 0.007387896134839406,
+      "rmse_euler": 0.050331666236277536,
+      "max_error_esquema": 0.016621357879641002,
+      "max_error_euler": 0.10761650921812793
+    },
+    {
+      "dt": 0.05,
+      "rmse_esquema": 0.003858597570669373,
+      "rmse_euler": 0.022599369926658855,
+      "max_error_esquema": 0.008719820762805613,
+      "max_error_euler": 0.049562574716014995
+    },
+    {
+      "dt": 0.025,
+      "rmse_esquema": 0.001971033623481216,
+      "rmse_euler": 0.010756116634367771,
+      "max_error_esquema": 0.004464165047305235,
+      "max_error_euler": 0.023814882534902104
+    }
+  ],
+  "figuras": {
+    "desplazamiento": "globo_desplazamiento_comparacion.png",
+    "fase": "globo_retrato_fase.png",
+    "regimenes": "globo_regimenes_amortiguamiento.png",
+    "convergencia": "globo_convergencia_dt.png",
+    "energia": "globo_energia.png"
+  },
+  "animacion": "globo_oscilacion.gif"
+}
