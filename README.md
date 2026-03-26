@@ -10,6 +10,8 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+El workflow de GitHub Actions construye y publica el sitio en GitHub Pages en cada push a `main`.
+
 ## Desarrollo local
 
 ```bash
@@ -19,5 +21,9 @@ pip install -r requirements.txt
 ## Build
 
 ```bash
-python -m jupyter_book build .
+python -m jupyter_book build --all --html --site --force
 ```
+
+## Sitio publicado
+
+`https://xboster-eliel.github.io/jupyterbook_Modelacion_Ambiental/`

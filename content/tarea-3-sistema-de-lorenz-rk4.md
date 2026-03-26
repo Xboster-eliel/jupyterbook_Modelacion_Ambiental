@@ -27,7 +27,7 @@ El sistema integrado fue:
 - Figuras de series temporales y espacio de fases exportadas para el book.
 
 ## Resolucion y notebook asociado
-- [Resolucion Inciso 1: Sistema de Lorenz con RK4](resultados-discusion-lorenz-rk4.md)
+- [Resolucion Inciso 1: Sistema de Lorenz con RK4](resultados-discusion-lorenz-rk4)
 - [Notebook asociado](../notebooks/Guia_practica_Lorenz_RK4.ipynb)
 
 ## Referencias base (opcional)

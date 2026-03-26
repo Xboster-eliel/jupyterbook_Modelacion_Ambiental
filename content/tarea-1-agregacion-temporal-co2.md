@@ -1,8 +1,8 @@
 ---
-title: "Inciso 1: Agregacion temporal y CO₂"
+title: "Inciso 1: Agregacion temporal y CO2"
 ---
 
-# Inciso 1: Agregacion temporal del CO2
+# Inciso 1: Agregacion temporal y CO2
 
 Revisemos cómo la agregación temporal (escala de observación) modifica la interpretación/visualización de las señales de una variable ambiental como el dióxido de carbono atmosférico CO₂
 
@@ -21,8 +21,8 @@ En su analisis identifique que es observable, que proceso se refleja en la senal
 - Documento de resultados y discusion.
 
 ## Resolucion y notebook asociado
-- [Resolucion Inciso 1: Agregacion temporal y CO2](resultados-discusion-maunaloa)
-- [Notebook asociado](guia-practica-maunaloa-noaa)
+- [Resolucion Inciso 1: Agregacion temporal y CO2](Resultados_Discusion_MaunaLoa)
+- [Notebook asociado](../notebooks/Guia_practica_MaunaLoa_NOAA.ipynb)
 
 ## Referencias base (opcional)
 - TBD

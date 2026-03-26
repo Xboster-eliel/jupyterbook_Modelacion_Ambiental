@@ -3,10 +3,10 @@ version: 1
 project:
   id: 6fc4dd58-52da-4ef4-8d57-aa15d83605cd
   title: Modelacion Ambiental
-  description: Tarea #1
+  description: Book del curso de Modelacion Ambiental
   # keywords: []
   # authors: []
-  # github:
+  github: https://github.com/Xboster-eliel/jupyterbook_Modelacion_Ambiental
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 
 extends:
@@ -17,4 +17,3 @@ site:
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
-
