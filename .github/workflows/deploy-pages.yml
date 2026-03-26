@@ -40,13 +40,11 @@ jobs:
       - name: Ensure Python kernel is available
         run: python -m ipykernel install --user --name python3 --display-name "Python 3"
 
-      - name: Execute notebooks
+      - name: Execute portable notebooks
         env:
           MPLBACKEND: Agg
         run: |
           python -m nbconvert --to notebook --execute --inplace notebooks/Guia_practica_MaunaLoa_NOAA.ipynb
-          python -m nbconvert --to notebook --execute --inplace notebooks/Guia_practica_GISTEMP.ipynb
-          python -m nbconvert --to notebook --execute --inplace notebooks/Guia_practica_Modelos_linealesVSprocesos.ipynb
           python -m nbconvert --to notebook --execute --inplace notebooks/Guia_practica_Globo_medicion.ipynb
           python -m nbconvert --to notebook --execute --inplace notebooks/Guia_practica_Lorenz_RK4.ipynb
 
