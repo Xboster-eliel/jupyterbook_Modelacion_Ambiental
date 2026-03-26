@@ -3,91 +3,376 @@
     "regimen": "subamortiguado",
     "omega_0": 1.0,
     "alpha": 0.2,
-    "amplitud_inicial": 1.0,
-    "desplazamiento_final_exacto": -0.002063415450470151,
-    "desplazamiento_final_esquema": -0.0028669304864740756,
-    "desplazamiento_final_euler": -0.0009316755490848578,
-    "rmse_esquema": 0.0031135164476879065,
-    "rmse_euler": 0.01772062380685298
+    "desplazamiento_inicial": 0.0,
+    "desplazamiento_final_exacto": -0.008390236631278471,
+    "desplazamiento_final_esquema": -0.008679561352231715,
+    "desplazamiento_final_euler": -0.013042647853605304,
+    "rmse_esquema": 0.0036583001476980623,
+    "rmse_euler": 0.01773106561673041
   },
   "regimenes": {
     "subamortiguado": {
       "regimen": "subamortiguado",
       "omega_0": 1.0,
       "alpha": 0.2,
-      "amplitud_inicial": 1.0,
-      "desplazamiento_final_exacto": -0.002063415450470151,
-      "desplazamiento_final_esquema": -0.0028669304864740756,
-      "desplazamiento_final_euler": -0.0009316755490848578,
-      "rmse_esquema": 0.0031135164476879065,
-      "rmse_euler": 0.01772062380685298
+      "desplazamiento_inicial": 0.0,
+      "desplazamiento_final_exacto": -0.008390236631278471,
+      "desplazamiento_final_esquema": -0.008679561352231715,
+      "desplazamiento_final_euler": -0.013042647853605304,
+      "rmse_esquema": 0.0036583001476980623,
+      "rmse_euler": 0.01773106561673041
     },
     "critico": {
       "regimen": "critico",
       "omega_0": 1.0,
       "alpha": 1.0,
-      "amplitud_inicial": 1.0,
-      "desplazamiento_final_exacto": 9.437836360697745e-10,
-      "desplazamiento_final_esquema": -4.790680762819385e-10,
-      "desplazamiento_final_euler": 5.993950770966954e-10,
-      "rmse_esquema": 0.0013271122443129044,
-      "rmse_euler": 0.002067566178756906
+      "desplazamiento_inicial": 0.0,
+      "desplazamiento_final_exacto": 9.060322906269835e-10,
+      "desplazamiento_final_esquema": -4.861351426247547e-10,
+      "desplazamiento_final_euler": 5.763414202852896e-10,
+      "rmse_esquema": 0.004035322113722583,
+      "rmse_euler": 0.00209217577863253
     },
     "sobreamortiguado": {
       "regimen": "sobreamortiguado",
       "omega_0": 1.0,
       "alpha": 1.5,
-      "amplitud_inicial": 1.0,
-      "desplazamiento_final_exacto": 0.00012224545892580935,
-      "desplazamiento_final_esquema": 0.0001125654752309796,
-      "desplazamiento_final_euler": 0.00011389515485923338,
-      "rmse_esquema": 0.001043295685379207,
-      "rmse_euler": 0.0014276700881947527
+      "desplazamiento_inicial": 0.0,
+      "desplazamiento_final_exacto": 4.669361033932996e-05,
+      "desplazamiento_final_esquema": 4.5780126581635316e-05,
+      "desplazamiento_final_euler": 4.350407800229433e-05,
+      "rmse_esquema": 0.0045643064991120665,
+      "rmse_euler": 0.0014640863877059724
     }
   },
   "estudio_dt": [
     {
       "dt": 0.4,
-      "rmse_esquema": 0.0222689185053369,
-      "rmse_euler": 0.5926988068168687,
-      "max_error_esquema": 0.04832701109863033,
-      "max_error_euler": 1.0095982709698512
+      "rmse_esquema": 0.033146386203891265,
+      "rmse_euler": 0.6101068651016297,
+      "max_error_esquema": 0.07045276703718073,
+      "max_error_euler": 0.9978376241540315
     },
     {
       "dt": 0.2,
-      "rmse_esquema": 0.013497811350138379,
-      "rmse_euler": 0.13075464286823385,
-      "max_error_esquema": 0.03001342432983889,
-      "max_error_euler": 0.25533655268378663
+      "rmse_esquema": 0.017476889229224437,
+      "rmse_euler": 0.1312790679458241,
+      "max_error_esquema": 0.03801441612908943,
+      "max_error_euler": 0.25538250157559894
     },
     {
       "dt": 0.1,
-      "rmse_esquema": 0.007387896134839406,
-      "rmse_euler": 0.050331666236277536,
-      "max_error_esquema": 0.016621357879641002,
-      "max_error_euler": 0.10761650921812793
+      "rmse_esquema": 0.008988367174377917,
+      "rmse_euler": 0.050399477536151545,
+      "max_error_esquema": 0.019634639567129242,
+      "max_error_euler": 0.10496496733072147
     },
     {
       "dt": 0.05,
-      "rmse_esquema": 0.003858597570669373,
-      "rmse_euler": 0.022599369926658855,
-      "max_error_esquema": 0.008719820762805613,
-      "max_error_euler": 0.049562574716014995
+      "rmse_esquema": 0.004559567770415746,
+      "rmse_euler": 0.022615076223696226,
+      "max_error_esquema": 0.0099817969525548,
+      "max_error_euler": 0.04940469410723364
     },
     {
       "dt": 0.025,
-      "rmse_esquema": 0.001971033623481216,
-      "rmse_euler": 0.010756116634367771,
-      "max_error_esquema": 0.004464165047305235,
-      "max_error_euler": 0.023814882534902104
+      "rmse_esquema": 0.0022964900705926927,
+      "rmse_euler": 0.010760856740600323,
+      "max_error_esquema": 0.00503343361212516,
+      "max_error_euler": 0.023978844304985147
     }
   ],
+  "sensibilidad": {
+    "beta": [
+      {
+        "beta": 0.2,
+        "regimen": "subamortiguado",
+        "desplazamiento_maximo": 0.8647179845252259,
+        "periodo_aparente": 6.32,
+        "cruces_cero": 7,
+        "tiempo_estabilizacion_5pct": 24.0
+      },
+      {
+        "beta": 0.8,
+        "regimen": "subamortiguado",
+        "desplazamiento_maximo": 0.6095615976723089,
+        "periodo_aparente": 6.896000000000001,
+        "cruces_cero": 6,
+        "tiempo_estabilizacion_5pct": 9.0
+      },
+      {
+        "beta": 2.0,
+        "regimen": "critico",
+        "desplazamiento_maximo": 0.3789984419480229,
+        "periodo_aparente": NaN,
+        "cruces_cero": 1,
+        "tiempo_estabilizacion_5pct": 5.72
+      },
+      {
+        "beta": 3.2,
+        "regimen": "sobreamortiguado",
+        "desplazamiento_maximo": 0.2743327710843714,
+        "periodo_aparente": NaN,
+        "cruces_cero": 0,
+        "tiempo_estabilizacion_5pct": 9.76
+      }
+    ],
+    "gamma_m": [
+      {
+        "m": 0.5,
+        "gamma": 0.5,
+        "periodo_aparente": 6.896000000000001,
+        "desplazamiento_maximo": 0.6095615976723089
+      },
+      {
+        "m": 0.5,
+        "gamma": 1.0,
+        "periodo_aparente": 4.666666666666667,
+        "desplazamiento_maximo": 0.48930252130783053
+      },
+      {
+        "m": 0.5,
+        "gamma": 1.5,
+        "periodo_aparente": 3.76,
+        "desplazamiento_maximo": 0.42463950242805204
+      },
+      {
+        "m": 0.5,
+        "gamma": 2.0,
+        "periodo_aparente": 3.2307692307692313,
+        "desplazamiento_maximo": 0.38180530691421494
+      },
+      {
+        "m": 1.0,
+        "gamma": 0.5,
+        "periodo_aparente": 9.3,
+        "desplazamiento_maximo": 0.9734724483982672
+      },
+      {
+        "m": 1.0,
+        "gamma": 1.0,
+        "periodo_aparente": 6.44,
+        "desplazamiento_maximo": 0.7599747769630895
+      },
+      {
+        "m": 1.0,
+        "gamma": 1.5,
+        "periodo_aparente": 5.220000000000001,
+        "desplazamiento_maximo": 0.6501072761637333
+      },
+      {
+        "m": 1.0,
+        "gamma": 2.0,
+        "periodo_aparente": 4.506666666666666,
+        "desplazamiento_maximo": 0.579324179267204
+      },
+      {
+        "m": 1.5,
+        "gamma": 0.5,
+        "periodo_aparente": 11.200000000000001,
+        "desplazamiento_maximo": 1.2651370485431368
+      },
+      {
+        "m": 1.5,
+        "gamma": 1.0,
+        "periodo_aparente": 7.824000000000001,
+        "desplazamiento_maximo": 0.973527009558702
+      },
+      {
+        "m": 1.5,
+        "gamma": 1.5,
+        "periodo_aparente": 6.36,
+        "desplazamiento_maximo": 0.8268425666984852
+      },
+      {
+        "m": 1.5,
+        "gamma": 2.0,
+        "periodo_aparente": 5.497142857142856,
+        "desplazamiento_maximo": 0.7336487667932549
+      },
+      {
+        "m": 2.0,
+        "gamma": 0.5,
+        "periodo_aparente": 12.840000000000002,
+        "desplazamiento_maximo": 1.516081684016564
+      },
+      {
+        "m": 2.0,
+        "gamma": 1.0,
+        "periodo_aparente": 9.0,
+        "desplazamiento_maximo": 1.1559055816362853
+      },
+      {
+        "m": 2.0,
+        "gamma": 1.5,
+        "periodo_aparente": 7.312,
+        "desplazamiento_maximo": 0.9773086310346919
+      },
+      {
+        "m": 2.0,
+        "gamma": 2.0,
+        "periodo_aparente": 6.32,
+        "desplazamiento_maximo": 0.8647179845252259
+      }
+    ],
+    "condiciones_iniciales": [
+      {
+        "tipo": "variacion_v0",
+        "valor": 0.5,
+        "regimen": "subamortiguado",
+        "desplazamiento_maximo": 0.37998738848154473,
+        "periodo_aparente": 6.44,
+        "cruces_cero": 7,
+        "tiempo_estabilizacion_5pct": 15.24
+      },
+      {
+        "tipo": "variacion_v0",
+        "valor": 1.0,
+        "regimen": "subamortiguado",
+        "desplazamiento_maximo": 0.7599747769630895,
+        "periodo_aparente": 6.44,
+        "cruces_cero": 7,
+        "tiempo_estabilizacion_5pct": 15.24
+      },
+      {
+        "tipo": "variacion_v0",
+        "valor": 1.5,
+        "regimen": "subamortiguado",
+        "desplazamiento_maximo": 1.1399621654446492,
+        "periodo_aparente": 6.44,
+        "cruces_cero": 7,
+        "tiempo_estabilizacion_5pct": 15.24
+      },
+      {
+        "tipo": "variacion_y0",
+        "valor": -0.5,
+        "regimen": "subamortiguado",
+        "desplazamiento_maximo": 0.70392574633986,
+        "periodo_aparente": 6.434285714285714,
+        "cruces_cero": 8,
+        "tiempo_estabilizacion_5pct": 15.72
+      },
+      {
+        "tipo": "variacion_y0",
+        "valor": 0.0,
+        "regimen": "subamortiguado",
+        "desplazamiento_maximo": 0.7599747769630895,
+        "periodo_aparente": 6.44,
+        "cruces_cero": 7,
+        "tiempo_estabilizacion_5pct": 15.24
+      },
+      {
+        "tipo": "variacion_y0",
+        "valor": 0.5,
+        "regimen": "subamortiguado",
+        "desplazamiento_maximo": 0.9947900730328982,
+        "periodo_aparente": 6.44,
+        "cruces_cero": 7,
+        "tiempo_estabilizacion_5pct": 14.8
+      }
+    ],
+    "convergencia": [
+      {
+        "dt": 0.4,
+        "e2_esquema": 0.033146386203891265,
+        "einf_esquema": 0.07045276703718073,
+        "ratio_einf": 1.8533170889153496,
+        "ratio_e2": 1.8965838696548278
+      },
+      {
+        "dt": 0.2,
+        "e2_esquema": 0.017476889229224437,
+        "einf_esquema": 0.03801441612908943,
+        "ratio_einf": 1.9360893282059608,
+        "ratio_e2": 1.944389775157801
+      },
+      {
+        "dt": 0.1,
+        "e2_esquema": 0.008988367174377917,
+        "einf_esquema": 0.019634639567129242,
+        "ratio_einf": 1.9670445772896468,
+        "ratio_e2": 1.9713200081590956
+      },
+      {
+        "dt": 0.05,
+        "e2_esquema": 0.004559567770415746,
+        "einf_esquema": 0.0099817969525548,
+        "ratio_einf": 1.9830989582358667,
+        "ratio_e2": 1.9854506791919129
+      },
+      {
+        "dt": 0.025,
+        "e2_esquema": 0.0022964900705926927,
+        "einf_esquema": 0.00503343361212516,
+        "ratio_einf": NaN,
+        "ratio_e2": NaN
+      }
+    ],
+    "estabilidad": [
+      {
+        "dt": 0.05,
+        "max_abs_y": 0.7609515674833763,
+        "cruces_cero": 7,
+        "estable_aprox": true
+      },
+      {
+        "dt": 0.2,
+        "max_abs_y": 0.7764196740560109,
+        "cruces_cero": 7,
+        "estable_aprox": true
+      },
+      {
+        "dt": 0.5,
+        "max_abs_y": 0.8132812500000002,
+        "cruces_cero": 7,
+        "estable_aprox": true
+      },
+      {
+        "dt": 1.0,
+        "max_abs_y": 0.8,
+        "cruces_cero": 7,
+        "estable_aprox": true
+      },
+      {
+        "dt": 1.4,
+        "max_abs_y": 1.008,
+        "cruces_cero": 7,
+        "estable_aprox": true
+      }
+    ],
+    "arranque": [
+      {
+        "metodo_arranque": "Euler",
+        "e2": 0.004870346256717038,
+        "einf": 0.011548685696606054,
+        "error_final": -0.0003593211834709391
+      },
+      {
+        "metodo_arranque": "Taylor 2",
+        "e2": 0.0036583001476980623,
+        "einf": 0.008012263294192828,
+        "error_final": -0.0002893247209532438
+      },
+      {
+        "metodo_arranque": "Exacto",
+        "e2": 0.0036323937527489446,
+        "einf": 0.007971431477063723,
+        "error_final": -0.00028738209311982184
+      }
+    ]
+  },
   "figuras": {
     "desplazamiento": "globo_desplazamiento_comparacion.png",
     "fase": "globo_retrato_fase.png",
     "regimenes": "globo_regimenes_amortiguamiento.png",
     "convergencia": "globo_convergencia_dt.png",
-    "energia": "globo_energia.png"
+    "energia": "globo_energia.png",
+    "sensibilidad_beta": "globo_sensibilidad_beta.png",
+    "sensibilidad_gamma_m": "globo_sensibilidad_gamma_m.png",
+    "sensibilidad_ci": "globo_sensibilidad_condiciones_iniciales.png",
+    "convergencia_normas": "globo_convergencia_normas.png",
+    "estabilidad_dt": "globo_estabilidad_dt.png",
+    "arranque": "globo_arranque_comparacion.png"
   },
   "animacion": "globo_oscilacion.gif"
 }

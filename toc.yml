@@ -19,6 +19,7 @@ project:
         - file: content/definitions-capitulo-2-globo-medicion.md
         - file: content/tarea-2-globo-medicion-diferencias-finitas.md
         - file: content/resultados-discusion-globo-medicion.md
+        - file: content/analisis-sensibilidad-globo-medicion.md
         - file: notebooks/Guia_practica_Globo_medicion.ipynb
     - file: content/capitulo-3-runge-kutta-y-atractores.md
       children:

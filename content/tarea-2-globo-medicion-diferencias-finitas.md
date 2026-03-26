@@ -10,15 +10,15 @@ Un globo de medicion de variables meteorologicas asciende verticalmente hasta al
 La ecuacion diferencial ordinaria que representa este proceso es:
 
 $$
-m\,\frac{d^2 y}{dt^2} + b\,\frac{dy}{dt} + k\,y = 0,
+m\,\frac{d^2 y}{dt^2} = -\beta\,\frac{dy}{dt} - \gamma\,y,
 $$
 
-donde `y(t)` es el desplazamiento vertical respecto al equilibrio, `m` es la masa del globo, `b` representa la resistencia del aire y `k` es la constante lineal de boyancia restauradora.
+donde `y(t)` es el desplazamiento vertical respecto al nivel de equilibrio, `y = 0` representa la posicion de equilibrio, `m` es la masa del globo, `\beta` representa la resistencia del aire y `\gamma` es la constante lineal de boyancia restauradora. En forma equivalente, tambien puede escribirse como `m y'' + \beta y' + \gamma y = 0`.
 
-Las condiciones iniciales se dejan en forma generica:
+Las condiciones iniciales del inciso son:
 
 $$
-y(0) = y_0, \qquad y'(0) = v_0.
+y(0) = 0, \qquad y'(0) = v_0.
 $$
 
 En esta tarea revisaremos la solucion numerica de la ecuacion y, mas importante aun, el analisis critico de los resultados que entrega la discretizacion.
@@ -42,11 +42,11 @@ Explique como se inicia la integracion numerica. Plantee su estrategia para calc
 ## Objetivos del inciso
 - Derivar de forma consistente un esquema explicito de dos pasos para una EDO amortiguada de segundo orden.
 - Comparar la estructura del metodo con Euler hacia adelante y discutir el papel de las condiciones iniciales.
-- Evaluar criticamente el efecto del paso temporal y de los parametros `m`, `b` y `k` sobre la solucion numerica.
+- Evaluar criticamente el efecto del paso temporal y de los parametros `m`, `\beta` y `\gamma` sobre la solucion numerica.
 
 ## Entregables
 - Derivacion algebraica clara del esquema de diferencias finitas.
-- Discusion comparativa entre el esquema obtenido y Euler hacia adelante.
+- Discusion comparativa entre el esquema obtenido y el metodo de Euler hacia adelante.
 - Analisis critico de resultados numericos para distintos casos de integracion.
 
 ## Resolucion asociada
