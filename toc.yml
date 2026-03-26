@@ -26,4 +26,6 @@ project:
         - file: content/definitions-capitulo-3-runge-kutta-y-atractores.md
         - file: content/tarea-3-sistema-de-lorenz-rk4.md
         - file: content/resultados-discusion-lorenz-rk4.md
+        - file: content/analisis-sensibilidad-lorenz-rk4.md
         - file: notebooks/Guia_practica_Lorenz_RK4.ipynb
+        - file: notebooks/Guia_practica_Lorenz_Sensibilidad.ipynb
